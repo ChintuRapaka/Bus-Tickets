@@ -1,5 +1,5 @@
 {
-  "name": "bus-tickets",
+  "name": "website",
   "version": "1.0.0",
   "description": "Bus ticket booking mechanism",
   "main": "server.js",
@@ -12,19 +12,6 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "file-system": "^2.2.2",
-    "fs": "0.0.1-security",
-    "json-server": "^0.16.3",
-    "mongoose": "^5.11.16",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChintuRapaka/Bus-Tickets.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ChintuRapaka/Bus-Tickets/issues"
-  },
-  "homepage": "https://github.com/ChintuRapaka/Bus-Tickets#readme"
+    "mongoose": "^5.11.16"
+  }
 }
