@@ -4,7 +4,7 @@ const mg = require('mongoose');
 const bodyParser = require('body-parser');
 const port = process.env.PORT || 8000;
 
-mg.connect("mongodb://localhost:27017/busDB", {useNewUrlParser:true, useUnifiedTopology:true});
+mg.connect("mongodb+srv://chintu:chintu@cluster0.tj9m1.mongodb.net/busDB?retryWrites=true&w=majority", {useNewUrlParser:true, useUnifiedTopology:true});
 const ticket = new mg.Schema({
 	name:String,
 	number: String,
