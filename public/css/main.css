@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	margin: 0;
 	border: border-box;
@@ -26,33 +25,4 @@ select {
 button {
 	padding: 0.5rem 1rem;
 	margin: 1rem 2rem;
-=======
-body {
-	margin: 0;
-	border: border-box;
-	width: 100%;
-	height: 95vh;
-	display: grid;
-	place-items: center;
-	text-align: center;
-}
-.container {
-	width: 300px;
-	display: grid;
-	place-items: center;
-	border: 1px solid black;
-}
-.input {
-	margin: 10px 5px;
-	padding: 10px;
-	display: block;
-}
-select {
-	display: block;
-	padding: 0.5rem 3rem;
-}
-button {
-	padding: 0.5rem 1rem;
-	margin: 1rem 2rem;
->>>>>>> d3683dd45e4129d847de2aa83d36a0780d100458
 }
